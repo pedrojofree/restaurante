@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <!-- SCRIPTS JS -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/efectos.js"></script>
+    <script src="./js/parallax.js"></script>
+</head>
+<body>
+
+    <!-- HEADER (NAV Y TITULO)  -->
+    <header>
+        <!-- DIV PARA CENTRAR EL CONTENIDO  -->
+        <div class="contenedor">
+            <!-- DIV NAV BAR -->
+            <nav class="nav-menu">
+                <a href="#" id="btn-acerca-de">Acerca de</a>
+                <a href="#" id="btn-menu">Menu</a>
+                <a href="#" id="btn-galeria">Galeria</a>
+                <a href="#" id="btn-ubicacion">Ubicacion</a>
+            </nav>
+
+            <!-- DIV TITULO Y FRASE -->
+            <div class="titulo">
+                <h1 class="titulo-nombre">Ruta 40 DEAAAAA</h1>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            </div>
+        </div>
+    </header>
+
+    <!-- SECTION PARA AGRUPAR TODO EL CONTENIDO -->
+    <section class="main">
+        <!-- SECTION PARA AGRUPAR EL "ACERCA-DE" -->
+        <section class="acerca-de" id="acerca-de">
+            <!-- CONTENEDOR PARA CENTRAR FOTO Y DESCRIPCION -->
+            <div class="contenedor">
+
+                <!-- FOTO -->
+                <div class="foto">
+                    <img src="./img/acerca-de.jpg" alt="foto-bio">
+                </div>
+
+                <!-- DESCRIPCION DE LA FOTO  -->
+                <article>
+                    <h3>Acerca de</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam explicabo ullam magni minus reiciendis debitis, odio amet perspiciatis ex! Nisi debitis nesciunt esse unde neque optio veniam doloribus vero porro?</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- SECTION PARA EL MENU DE PLATILLOS -->
+        <section class="menu">
+			<div class="contenedor">
+				<h3 class="titulo" id="platillos">Menú</h3>
+				<div class="contenedor-menu">
+					<div class="contenedor-menu2">
+						<article>
+							<p class="categoria">De Comer</p>
+							<div class="platillo">
+								<p class="nombre">Sed sagittis nisl dictum</p>
+								<p class="precio">$15</p>
+								<p class="descripcion">Praesent gravida, augue sit amet dignissim rutrum, 
+								enim tellus suscipit risus.</p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Lorem ipsum dolor sit amet</p>
+								<p class="precio">$10</p>
+								<p class="descripcion">Vestibulum ac sem id massa tempor vestibulum sed 
+								ut magna</p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Sed sagittis nisl dictum</p>
+								<p class="precio">$20</p>
+								<p class="descripcion">Praesent gravida, augue sit amet dignissim rutrum, 
+								enim tellus suscipit risus.</p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Sed sagittis nisl dictum</p>
+								<p class="precio">$35</p>
+								<p class="descripcion">Praesent gravida, augue sit amet dignissim rutrum, 
+								enim tellus suscipit risus.</p>
+							</div>
+						</article>
+						
+						<article>
+							<p class="categoria">De Tomar</p>
+							<div class="platillo">
+								<p class="nombre">Sed sagittis nisl dictum</p>
+								<p class="precio">$15</p>
+								<p class="descripcion">Praesent gravida, augue sit amet dignissim rutrum, 
+								enim tellus suscipit risus.</p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Sed sagittis nisl dictum</p>
+								<p class="precio">$15</p>
+								<p class="descripcion">Praesent gravida, augue sit amet dignissim rutrum, 
+								enim tellus suscipit risus.</p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Sed sagittis nisl dictum</p>
+								<p class="precio">$15</p>
+								<p class="descripcion">Praesent gravida, augue sit amet dignissim rutrum, 
+								enim tellus suscipit risus.</p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Sed sagittis nisl dictum</p>
+								<p class="precio">$15</p>
+								<p class="descripcion">Praesent gravida, augue sit amet dignissim rutrum, 
+								enim tellus suscipit risus.</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+
+        <!-- SECTION PARA LA GALERIA -->
+        <section class="galeria" id="galeria">
+
+            <!-- DIVS INDIVIDUALES PARA MANIPULAR EN GRID: -->
+            <div class="foto">
+                <img src="./img/1.jpg" alt="fotoDescriptiva">
+            </div>
+            <div class="foto">
+                <img src="./img/2.jpg" alt="fotoDescriptiva">
+            </div>
+            <div class="foto">
+                <img src="./img/3.jpg" alt="fotoDescriptiva">
+            </div>
+            <div class="foto">
+                <img src="./img/4.jpg" alt="fotoDescriptiva">
+            </div>
+            <div class="foto">
+                <img src="./img/5.jpg" alt="fotoDescriptiva">
+            </div>
+            <div class="foto">
+                <img src="./img/6.jpg" alt="fotoDescriptiva">
+            </div>
+            <div class="foto">
+                <img src="./img/7.jpg" alt="fotoDescriptiva">
+            </div>
+            <div class="foto">
+                <img src="./img/8.jpg" alt="fotoDescriptiva">
+            </div>
+        </section>
+
+        <!-- SECTION PARA UBICACION Y HORARIOS  -->
+        <section class="ubicacion" id="ubicacion">
+            <div class="contenedor">
+                <h3 class="titulo">Ubicación</h3>
+                <div class="direccion-texto">
+                    <p class="calle"> 3121 Siempre viva</p>
+                    <p class="telefono">(123)1233 1233</p>
+                    <p class="correo">correo</p>
+                </div>
+                <div class="horarios">
+                    <h4>Horarios</h4>
+                    <p class="entre-semana"> Lunes a Viernes <br> 8:00am - 9:00pm</p>
+                    <p class="findes">Sabado y Domingo <br> 16:00 - 21:00</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION PARA GOOGLE MAPS -->
+        <section class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2781.7881895524765!2d-67.432811!3d-45.795471!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x63591005b581b436!2sRuta%2040!5e0!3m2!1ses-419!2sar!4v1658534146663!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="contenedor">
+            <div class="copyright">
+                <p>Creado por Pedro Jofre</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
